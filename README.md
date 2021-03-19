@@ -8,3 +8,5 @@ Run the command:
   [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
   iex $(iwr 'https://raw.githubusercontent.com/grolston/SsmTempRdpUser/master/SsmTempRdpUser.ps1' -UseBasicParsing).Content
 ```
+
+Test
