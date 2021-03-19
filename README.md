@@ -6,5 +6,5 @@ Run the command:
 
 ```powershell
   [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-  iex $(iwr 'https://raw.githubusercontent.com/grolston/SsmTempRdpUser/master/SsmTempRdpUser.ps1' -UseBasicParsing).Content
+  iex $(iwr 'https://raw.githubusercontent.com/jlrivas/SSMTempRDPUser/master/SsmTempRdpUser.ps1' -UseBasicParsing).Content
 ```
