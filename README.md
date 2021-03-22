@@ -8,3 +8,5 @@ Run the command:
   [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
   iex $(iwr 'https://raw.githubusercontent.com/jlrivas/SSMTempRDPUser/master/SsmTempRdpUser.ps1' -UseBasicParsing).Content
 ```
+
+The first line might be necessary as TLS1.0 is no longer supported by github, so you will need to tell Windows to use TLS1.2
